@@ -5,40 +5,29 @@ This project analyzes a credit card application dataset to uncover key insights 
 ---
 
 ## 📊 Dashboard Overview
+This project analyses borrower behaviour to understand the key factors that contribute to **loan defaults**.  
+Using **Power BI**, the dashboard highlights patterns in borrower characteristics such as **education level, occupation, income type, and regional risk**.
 
-The dashboard is divided into 4 insightful pages:
-
-### 1. **Employment Insights and Overview**
-- Summarizes total applications, average credit issued, and both default and high-risk rates.
-- Tracks employment type variations (Working, Commercial, Pensioner, etc.).
-
-### 2. **Income & Credit Behavior**
-- Analyzes income types vs. total income levels.
-- Identifies trends in income vs. credit amount applied.
-- Correlates **credit amount** with **number of children** and **family size**.
-
-### 3. **Credit Risk Factors**
-- Flags potential default indicators like:
-  - Previous default history.
-  - Payment difficulties.
-  - Ownership of car or real estate.
-- Useful for credit scoring or risk modeling.
-
-### 4. **Registration & System Usage**
-- Tracks applicant behavior over time using:
-  - Days since application registration.
-  - Days of last interaction with system.
-  - Document issuance timelines.
-- Helps detect bulk uploads or systemic updates.
+The objective of this analysis is to help financial institutions **identify high-risk borrower segments and improve credit risk assessment strategies.**
 
 ---
 
-## 📌 Key Features
+## ❓ Business Problem
+Loan defaults can lead to significant financial losses for banks and financial institutions.  
+This project aims to analyse borrower data and identify patterns that contribute to loan defaults.
 
-- **Dynamic Age Grouping** with DAX logic
-- **Callout Insights** for visual storytelling
-- **Clean Layout** and **Consistent Color Theme**
-- **Interactivity** using slicers for filters (e.g., Age Group, Gender, Income Type)
+Key questions addressed in this analysis:
+
+- Which borrower segments have the highest default risk?
+- How do **education level, occupation, and income type** influence loan defaults?
+- Which regions contribute the most to defaulted loans?
+- What insights can help financial institutions improve **credit risk management**?
+
+---
+
+## 🔍 Key Insights
+
+The analysis shows that borrowers with unstable income sources, such as unemployed individuals or those on maternity leave, have the highest default risk. Default rates are also significantly higher among low-skill occupations compared to professional roles like accountants, managers, and IT staff. Additionally, borrowers with lower education levels contribute the majority of defaults. Although the overall default rate is relatively low (8.07%), the high average loan amount (₹599K) still represents considerable financial risk for lending institutions.
 
 ---
 
@@ -53,7 +42,7 @@ The dashboard is divided into 4 insightful pages:
 ## 👨‍💻 Author
 
 **Ankit Rawat**  
-Aspiring Data Analyst | Power BI & SQL Enthusiast  
+Data Analyst | Power BI & SQL Enthusiast  
 📧 [ankitrawat.ds@gmail.com]
 🔗 [LinkedIn](https://www.linkedin.com/in/ankitrawat-ds/)
 
